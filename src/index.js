@@ -34,8 +34,7 @@ import Product01 from './assets/product-01.png';
 import Product02 from './assets/product-02.png';
 
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Modal/>
 
@@ -151,4 +150,4 @@ root.render(
     <Footer/>
 
   </React.StrictMode>
-);
+)
